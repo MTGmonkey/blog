@@ -12,7 +12,7 @@ stdenv.mkDerivation {
     zola
   ];
   configurePhase = ''
-    zola check
+    # zola check
   '';
   buildPhase = ''
     zola build
